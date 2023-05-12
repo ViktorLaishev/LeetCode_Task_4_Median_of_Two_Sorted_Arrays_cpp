@@ -13,7 +13,7 @@ public:
             if (i == m || (j < n && nums2[j] <= nums1[i])) {
                 curr = nums2[j++];
             } else {
-                curr = nums1[i++];
+                curr = nums1[i++]; 
             }
         }
         
